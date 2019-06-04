@@ -1,0 +1,12 @@
+<html>
+    <head>
+        <title> EJS</title>
+    </head>
+    <body>
+        <% product.forEach(function (item , index){ %>
+            <h1><%=item.name%></h1><br>
+            <p><%=item.discription%></p>
+            <h2><%=item.price%></h2>
+       <% }); %>
+    </body>
+</html>
